@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'gallery/css/bootstrap.min.css' %}">
+</head>
+<body>
+{% block header %}
+    <div class="container-fluid">
+        <nav class="navbar navbar-default bg-primary navbar-static-top">
+            <div class="navbar-header">
+                <div class="navbar-brand">Gallery</div>
+            </div>
+            <ul class="nav navbar-nav nav-pills">
+                <li><a href="{% url 'index' %}">Home</a></li>
+                <li><a href="{% url 'index' %}">Gallery</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <form class="navbar-form navbar-right" style="margin-right: 10px;">
+                <div class="form-group">
+                    <a type="button" class="btn btn-primary" href="admin/">Login</a>
+                </div>
+            </form>
+        </nav>
+    </div>
+{% endblock %}
+<div class="container-fluid">
+    {% block content %}{% endblock %}
+</div>
+{% block footer %}
+    <div class="container-fluid">
+        <div class="navbar">
+            <ul class="nav navbar-nav nav-pills">
+                <li><a href="{% url 'index' %}">Home</a></li>
+                <li><a href="{% url 'index' %}">Gallery</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="{% static 'gallery/js/jquery.min.js' %}"></script>
+    <script src="{% static 'gallery/js/bootstrap.min.js' %}"></script>
+
+{% endblock %}
+
+</body>
+</html>

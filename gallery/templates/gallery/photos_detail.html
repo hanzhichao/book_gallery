@@ -1,0 +1,8 @@
+{% extends 'gallery/base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+    <div class="page-header"><h1>{{ photo.title }}</h1></div>
+    <h3><a href="#">{{ photo.caption }}</a></h3>
+    <img src="{{ photo.image.url }}" alt="...">
+    </div>
+{% endblock %}
