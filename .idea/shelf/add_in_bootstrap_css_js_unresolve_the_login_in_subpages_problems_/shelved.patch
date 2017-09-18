@@ -1,0 +1,457 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(date 1505666380000)
++++ .idea/workspace.xml	(revision )
+@@ -1,7 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="9af110ef-0944-40b5-ab5f-4084e4aedccb" name="默认的" comment="" />
++    <list default="true" id="9af110ef-0944-40b5-ab5f-4084e4aedccb" name="默认的" comment="add in bootstrap css/js,unresolve the login in subpages problems&#10;">
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
++    </list>
+     <ignored path="book_gallery.iws" />
+     <ignored path=".idea/workspace.xml" />
+     <ignored path=".idea/dataSources.local.xml" />
+@@ -28,11 +30,11 @@
+   </component>
+   <component name="FileEditorManager">
+     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
++      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+         <entry file="file://$PROJECT_DIR$/gallery/urls.py">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state vertical-scroll-proportion="0.0">
+-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
++            <state vertical-scroll-proportion="1.7462686">
++              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+               <folding>
+                 <element signature="e#0#51#0" expanded="true" />
+               </folding>
+@@ -40,11 +42,11 @@
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="items_list.html" pinned="false" current-in-tab="true">
++      <file leaf-file-name="items_list.html" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/items_list.html">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state vertical-scroll-proportion="0.34249473">
+-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
++            <state vertical-scroll-proportion="-6.230769">
++              <caret line="9" column="88" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="88" />
+               <folding />
+             </state>
+           </provider>
+@@ -54,7 +56,7 @@
+         <entry file="file://$PROJECT_DIR$/gallery/views.py">
+           <provider selected="true" editor-type-id="text-editor">
+             <state vertical-scroll-proportion="0.0">
+-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
++              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+               <folding>
+                 <element signature="e#15#70#0" expanded="true" />
+               </folding>
+@@ -62,11 +64,11 @@
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/index.html">
++      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/gallery/models.py">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state vertical-scroll-proportion="-4.8461537">
+-              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
++            <state vertical-scroll-proportion="0.0">
++              <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+               <folding />
+             </state>
+           </provider>
+@@ -75,8 +77,8 @@
+       <file leaf-file-name="items_detail.html" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/items_detail.html">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state vertical-scroll-proportion="-10.384615">
+-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
++            <state vertical-scroll-proportion="-7.6153846">
++              <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+               <folding />
+             </state>
+           </provider>
+@@ -85,13 +87,23 @@
+       <file leaf-file-name="photos_detail.html" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/photos_detail.html">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state vertical-scroll-proportion="-6.230769">
+-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
++            <state vertical-scroll-proportion="-3.4615386">
++              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+               <folding />
+             </state>
+           </provider>
+         </entry>
+       </file>
++      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/base.html">
++          <provider selected="true" editor-type-id="text-editor">
++            <state vertical-scroll-proportion="-2.7692308">
++              <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="73" />
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
+     </leaf>
+   </component>
+   <component name="FileTemplateManagerImpl">
+@@ -102,6 +114,14 @@
+       </list>
+     </option>
+   </component>
++  <component name="Git.Settings">
++    <option name="PREVIOUS_COMMIT_AUTHORS">
++      <list>
++        <option value="Hanzhichao" />
++      </list>
++    </option>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
+   <component name="IdeDocumentHistory">
+     <option name="CHANGED_PATHS">
+       <list>
+@@ -110,19 +130,21 @@
+         <option value="$PROJECT_DIR$/requirements.txt" />
+         <option value="$PROJECT_DIR$/gallery/admin.py" />
+         <option value="$PROJECT_DIR$/gallery/models.py" />
+-        <option value="$PROJECT_DIR$/gallery/fields.py" />
+         <option value="$PROJECT_DIR$/book_gallery/settings.py" />
+-        <option value="$PROJECT_DIR$/book_gallery/real_urls.py" />
+         <option value="$PROJECT_DIR$/templates/gallery/index.html" />
+         <option value="$PROJECT_DIR$/templates/gallery/items_detal.html" />
+         <option value="$PROJECT_DIR$/templates/photos_detail.html" />
+         <option value="$PROJECT_DIR$/book_gallery/urls.py" />
+-        <option value="$PROJECT_DIR$/gallery/urls.py" />
+-        <option value="$PROJECT_DIR$/gallery/templates/gallery/photos_detail.html" />
+-        <option value="$PROJECT_DIR$/gallery/templates/gallery/index.html" />
+         <option value="$PROJECT_DIR$/gallery/templates/gallery/items_detal.html" />
+-        <option value="$PROJECT_DIR$/gallery/views.py" />
++        <option value="$PROJECT_DIR$/gallery/templates/gallery/index.html" />
++        <option value="$PROJECT_DIR$/book_gallery/real_urls.py" />
++        <option value="$PROJECT_DIR$/gallery/fields.py" />
+         <option value="$PROJECT_DIR$/gallery/templates/gallery/items_list.html" />
++        <option value="$PROJECT_DIR$/gallery/views.py" />
++        <option value="$PROJECT_DIR$/gallery/templates/gallery/items_detail.html" />
++        <option value="$PROJECT_DIR$/gallery/templates/gallery/photos_detail.html" />
++        <option value="$PROJECT_DIR$/gallery/templates/gallery/base.html" />
++        <option value="$PROJECT_DIR$/gallery/urls.py" />
+       </list>
+     </option>
+   </component>
+@@ -150,7 +172,7 @@
+     <OptionsSetting value="true" id="更新" />
+     <OptionsSetting value="true" id="状态" />
+     <OptionsSetting value="true" id="编辑" />
+-    <ConfirmationsSetting value="0" id="添加" />
++    <ConfirmationsSetting value="2" id="添加" />
+     <ConfirmationsSetting value="0" id="移除" />
+   </component>
+   <component name="ProjectView">
+@@ -198,6 +220,10 @@
+               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+             </PATH_ELEMENT>
+             <PATH_ELEMENT>
++              <option name="myItemId" value="static" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
+               <option name="myItemId" value="gallery" />
+               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+             </PATH_ELEMENT>
+@@ -215,7 +241,21 @@
+               <option name="myItemId" value="gallery" />
+               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+             </PATH_ELEMENT>
++          </PATH>
++          <PATH>
+             <PATH_ELEMENT>
++              <option name="myItemId" value="book_gallery" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="book_gallery" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="gallery" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
+               <option name="myItemId" value="templates" />
+               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+             </PATH_ELEMENT>
+@@ -539,22 +579,30 @@
+       <option name="number" value="Default" />
+       <updated>1505535116688</updated>
+     </task>
++    <task id="LOCAL-00001" summary="add in bootstrap css/js,unresolve the login in subpages problems&#10;">
++      <created>1505716095362</created>
++      <option name="number" value="00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1505716095362</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="ToolWindowManager">
+     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+-    <editor active="true" />
++    <editor active="false" />
+     <layout>
+-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19969743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
++      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22163388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+-      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="版本控制" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7332242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13584287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25859246" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+@@ -578,11 +626,68 @@
+   <component name="VcsContentAnnotationSettings">
+     <option name="myLimit" value="2678400000" />
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="add in bootstrap css/js,unresolve the login in subpages problems&#10;" />
++    <option name="LAST_COMMIT_MESSAGE" value="add in bootstrap css/js,unresolve the login in subpages problems&#10;" />
++    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
++  </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager />
+     <watches-manager />
+   </component>
+   <component name="editorHistoryManager">
++    <entry file="file://$PROJECT_DIR$/gallery/urls.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state vertical-scroll-proportion="0.0">
++          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
++          <folding>
++            <element signature="e#0#51#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/items_list.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state vertical-scroll-proportion="0.0">
++          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/gallery/views.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state vertical-scroll-proportion="0.0">
++          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
++          <folding>
++            <element signature="e#15#70#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/index.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state vertical-scroll-proportion="0.0">
++          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/items_detail.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state vertical-scroll-proportion="0.0">
++          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/photos_detail.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state vertical-scroll-proportion="0.0">
++          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
+     <entry file="file://$PROJECT_DIR$/gallery/models.py">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0">
+@@ -668,14 +773,6 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/gallery/fields.py">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="0.0">
+-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+-          <folding />
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/media/photos/DZX.jpg">
+       <provider selected="true" editor-type-id="images">
+         <state />
+@@ -690,64 +787,53 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.43460765">
+           <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+-          <folding>
+-            <element signature="e#0#32#0" expanded="true" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/gallery/models.py">
++    <entry file="file://$PROJECT_DIR$/book_gallery/settings.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="0.0">
+-          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
++        <state vertical-scroll-proportion="0.6353591">
++          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/book_gallery/real_urls.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="0.0">
++        <state vertical-scroll-proportion="0.30927834">
+           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/book_gallery/urls.py">
++    <entry file="file://$PROJECT_DIR$/gallery/fields.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="0.40837696">
+-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
++        <state vertical-scroll-proportion="1.3298969">
++          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/book_gallery/settings.py">
++    <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/index.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="0.6353591">
+-          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
++        <state vertical-scroll-proportion="0.1294964">
++          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/photos_detail.html">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="-6.230769">
+-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+-          <folding />
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/items_detail.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="-10.384615">
+-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
++        <state vertical-scroll-proportion="-7.6153846">
++          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/index.html">
++    <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/photos_detail.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="-4.8461537">
+-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
++        <state vertical-scroll-proportion="-3.4615386">
++          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+           <folding />
+         </state>
+       </provider>
+@@ -755,28 +841,52 @@
+     <entry file="file://$PROJECT_DIR$/gallery/views.py">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0">
+-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
++          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+           <folding>
+             <element signature="e#15#70#0" expanded="true" />
+           </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/gallery/urls.py">
++    <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/items_list.html">
+       <provider selected="true" editor-type-id="text-editor">
++        <state vertical-scroll-proportion="-6.230769">
++          <caret line="9" column="88" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="88" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/book_gallery/urls.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state vertical-scroll-proportion="0.030927835">
++          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="34" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/gallery/models.py">
++      <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0">
+-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+-          <folding>
+-            <element signature="e#0#51#0" expanded="true" />
+-          </folding>
++          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/items_list.html">
++    <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/base.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="0.34249473">
+-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
++        <state vertical-scroll-proportion="-2.7692308">
++          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="73" />
+           <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/gallery/urls.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state vertical-scroll-proportion="1.7462686">
++          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
++          <folding>
++            <element signature="e#0#51#0" expanded="true" />
++          </folding>
+         </state>
+       </provider>
+     </entry>
+\ No newline at end of file
